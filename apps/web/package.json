@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "@releasedev/web",
   "version": "0.0.1",
   "type": "module",
   "private": true,
@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@workspace/ui": "workspace:*",
+    "@releasedev/ui": "workspace:*",
     "lucide-react": "^1.46.0",
     "next": "16.3.3",
     "next-themes": "^0.4.6",
@@ -24,8 +24,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@workspace/eslint-config": "workspace:^",
-    "@workspace/typescript-config": "workspace:*",
+    "@releasedev/eslint-config": "workspace:^",
+    "@releasedev/typescript-config": "workspace:*",
     "eslint": "^9",
     "typescript": "^5"
   }

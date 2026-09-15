@@ -1,3 +1,3 @@
-# `@workspace/typescript-config`
+# `@releasedev/typescript-config`
 
 Shared typescript configuration for the workspace.
